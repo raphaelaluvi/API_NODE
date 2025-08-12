@@ -1,0 +1,18 @@
+npm install - obviamente instala tudo, no caso o package.json
+npm i nodemon -g - instla nodemon
+
+url: localhost:3000/ALGUMA COISA
+nodemon server.js
+
+PrimeiroCluster
+luvizottorapha: senhaMongoDB_1208; 
+url: mongodb+srv://luvizottorapha:senhaMongoDB_1208@primeirocluster.cqkolpu.mongodb.net/PrimeiroCluster?retryWrites=true&w=majority&appName=PrimeiroCluster
+
+instala o prisma
+npm install prisma --save-dev
+npx prisma init -instala a funcoes
+npx prisma db push -pega o schema e mostra pro mongo
+
+instala prisma client
+npm install @prisma/client
+npx prisma studio

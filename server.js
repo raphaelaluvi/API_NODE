@@ -1,6 +1,5 @@
 import express from 'express'
 
-//teste
 // objeto da biblioteca
 const app = express()
 
