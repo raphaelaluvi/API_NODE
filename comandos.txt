@@ -1,5 +1,6 @@
 npm install - obviamente instala tudo, no caso o package.json
 npm i nodemon -g - instla nodemon
+teste
 
 url: localhost:3000/ALGUMA COISA
 nodemon server.js
