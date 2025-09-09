@@ -4,7 +4,7 @@ import pkg from '@prisma/client'
 const { PrismaClient } = pkg
 const prisma = new PrismaClient()
 
-// objeto da biblioteca
+// objeto da biblioteca teste
 const app = express()
 
 //indica q vai usar o json
