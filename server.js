@@ -1,4 +1,5 @@
 import express from 'express'
+import cors from 'cors'
 
 import pkg from '@prisma/client'
 const { PrismaClient } = pkg
@@ -6,6 +7,8 @@ const prisma = new PrismaClient()
 
 // objeto da biblioteca teste
 const app = express()
+app.use(express.json())
+app.use(cors())
 
 //indica q vai usar o json
 app.use(express.json())
